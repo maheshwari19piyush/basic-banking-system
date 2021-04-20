@@ -21,13 +21,10 @@
                 <td>{{customer.name}}</td>
                 <td><span>&#8377;</span> {{customer.balance}}</td>
                 <td>{{customer.email}}</td>
-                
-                <!--<td>{{customer.category | uppercase}}</td>-->
                 <td>
                     <div class="d-grid">
                         <button class="btn btn-warning" [routerLink]="[  '/transfer', this.customer.id  ]">Transfer</button>
                     </div>
-                    <!-- <a class="mx-2" style="color: black;" [routerLink]="[ '/transfer', this.customer.id ]"><i class="fa fa-pencil" aria-hidden="true"></i></a> -->
                 </td>
             </tr>
         </tbody>
